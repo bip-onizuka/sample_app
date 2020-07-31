@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/codahale/bcrypt-ruby.git
+  revision: 9f3fb05ba7b3732a87e0305ec635d7773bf1fafb
+  specs:
+    bcrypt (3.1.15)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -58,10 +64,10 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (9.8.5)
+    autoprefixer-rails (9.8.6)
       execjs
     bindex (0.8.1)
-    bootsnap (1.4.6)
+    bootsnap (1.4.7)
       msgpack (~> 1.0)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -84,7 +90,7 @@ GEM
     ffi (1.13.1-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    i18n (1.8.4)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
@@ -208,6 +214,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bcrypt!
   bootsnap (>= 1.4.2)
   bootstrap-sass (= 3.3.7)
   byebug
